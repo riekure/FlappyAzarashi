@@ -679,12 +679,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 998981788}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &971715357 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 901375883303038952, guid: 78325243f6efd5045bed610c897e190b,
-    type: 3}
-  m_PrefabInstance: {fileID: 901375883691597045}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &998981788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1031,7 +1025,7 @@ GameObject:
   - component: {fileID: 1384476242}
   m_Layer: 0
   m_Name: GameController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1510,7 +1504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2064922489}
   m_Layer: 0
-  m_Name: Block
+  m_Name: Blocks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1534,27 +1528,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2073512939 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 901375884405888798, guid: 78325243f6efd5045bed610c897e190b,
-    type: 3}
-  m_PrefabInstance: {fileID: 901375883691597045}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2073512940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073512939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd6cac6ce8792434f96126bb7a3f2800, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minHeight: -1.5
-  maxHeight: 4.2
-  pivot: {fileID: 971715357}
 --- !u!4 &2073512942 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 901375884405888793, guid: 78325243f6efd5045bed610c897e190b,
@@ -1792,6 +1765,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Azarashi
       objectReference: {fileID: 0}
+    - target: {fileID: 7706609891495986679, guid: ad4909936b0ed5c4180dfa29bea6ee2a,
+        type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 540876617}
     - target: {fileID: 7706609891495986678, guid: ad4909936b0ed5c4180dfa29bea6ee2a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1847,10 +1825,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7706609891495986679, guid: ad4909936b0ed5c4180dfa29bea6ee2a,
-        type: 3}
-      propertyPath: sprite
-      value: 
-      objectReference: {fileID: 540876617}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad4909936b0ed5c4180dfa29bea6ee2a, type: 3}
